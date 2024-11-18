@@ -33,12 +33,9 @@ from advanced and demanding experimental techniques with an average accuracy of 
 
 Files description:
 
-Folder Code:
   * ConceptOrientedSyn_model.m : MATLAB code devoloped to create results shown in publication
   * net1.mat : Trained encoder/decoder network (NET1) containing all weights and biases of the network after training.
   * net2.mat : Trained diffusion model network (NET2) containing all weights and biases of the network after training.
   * TEM.png : input example
-
-Folder Data:
   * Input synthetic TEM.zip: A compressed ZIP file containing 3000 Synthetic TEM gray scale images for microstructures in metal interconnects used as input in training process.
   * Target.zip: A compressed ZIP file containing the corresponding 3000 binary images for grain boundaries classification to be used as target in training process.
