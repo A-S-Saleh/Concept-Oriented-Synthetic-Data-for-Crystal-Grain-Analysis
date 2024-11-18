@@ -1,5 +1,7 @@
 This project contains the code and data explained in details in the work titled : "Novel Concept-Oriented Synthetic Data approach for Training Generative AI-Driven Crystal Grain Analysis Using Diffusion Model"
+
 Authors:
+
 A. S. Saleh (1, 3,) 
 K. Croes (1)
 H. Ceric (4)
