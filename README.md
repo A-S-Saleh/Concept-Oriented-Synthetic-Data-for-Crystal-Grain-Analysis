@@ -37,5 +37,5 @@ Files description:
   * net1.mat : Trained encoder/decoder network (NET1) containing all weights and biases of the network after training.
   * net2.mat : Trained diffusion model network (NET2) containing all weights and biases of the network after training.
   * TEM.png : input example
-  * Input synthetic TEM.zip: A compressed ZIP file containing 3000 Synthetic TEM gray scale images for microstructures in metal interconnects used as input in training process.
+  * Input synthetic TEM (Uploaded as 4 split 7zip files to be extracted using 7zip software): A compressed ZIP file containing 3000 Synthetic TEM gray scale images for microstructures in metal interconnects used as input in training process.
   * Target.zip: A compressed ZIP file containing the corresponding 3000 binary images for grain boundaries classification to be used as target in training process.
