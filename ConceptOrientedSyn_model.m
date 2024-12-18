@@ -36,7 +36,7 @@ figure(); imshow(k1); title('Initial guess'); drawnow;
 
 % Use diffusion model for grain boudaries prediction
 k2 = k1; Er = inf; n = 0;
-Er_conv = Er_conv*numel(k2)*255; % Error convergance
+Er_conv = Er_conv*numel(k2)*max(k2(:)); % Error convergance
 while Er > Er_conv
     k2old = k2; n = n + 1;
     k2 = uint8(predict(net2,k2)*255);
